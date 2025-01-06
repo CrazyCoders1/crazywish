@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Wishes</title>
+
+    <!-- Google Fonts for Sans-Serif and Handwritten style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Cursive", sans-serif;
+            background: #ffd9e8; /* Soft pink */
+            color: #000; /* Black text */
+            overflow-y: scroll; /* Enable scrolling */
+            min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+            position: relative;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 2; /* Ensure content is in front of the decorations */
+        }
+
+        .section-box {
+            background: #ffe6f1; /* Whitish-pink background */
+            border: 2px solid #ff3366; /* Red border */
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-family: 'Gamja Flower', sans-serif; /* Handwritten style */
+            min-height: 150px; /* Set a minimum height for sections */
+        }
+
+        /* Header and Sub-header */
+        .header {
+            text-align: center;
+            color: #ff3366;
+            font-size: 3em;
+            font-family: sans-serif; /* Sans-serif for headings */
+        }
+
+        .sub-header {
+            text-align: center;
+            font-size: 1.5em;
+            color: #333;
+            font-family: sans-serif; /* Sans-serif for subheadings */
+        }
+
+        /* Balloon Animation */
+        @keyframes floatBalloon {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        .balloon {
+            position: absolute;
+            font-size: 3em;
+            animation: floatBalloon 8s infinite ease-in;
+        }
+
+        /* Heart Animation */
+        @keyframes heartFall {
+            0% {
+                opacity: 1;
+                transform: translateY(-100px) rotate(0deg);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(100vh) rotate(360deg);
+            }
+        }
+
+        .falling-heart {
+            position: absolute;
+            top: 0;
+            animation: heartFall 5s linear infinite;
+            font-size: 2em;
+        }
+
+        /* Sparkles Animation */
+        @keyframes sparkleAnimation {
+            0% {
+                transform: translateX(0) translateY(0);
+                opacity: 0;
+            }
+            50% {
+                transform: translateX(10px) translateY(-10px);
+                opacity: 1;
+            }
+            100% {
+                transform: translateX(0) translateY(0);
+                opacity: 0;
+            }
+        }
+
+        .sparkle {
+            position: absolute;
+            font-size: 2em;
+            animation: sparkleAnimation 2s infinite ease-in-out;
+            opacity: 0;
+        }
+
+        .signature {
+            text-align: center;
+            font-size: 1.5em;
+            color: #ff3366;
+            font-family: sans-serif;
+        }
+
+        /* Other sections */
+        .section-title {
+            font-size: 2em;
+            font-family: sans-serif;
+            color: #ff3366;
+        }
+
+        .personal-message,
+        .future-wishes,
+        .ending-note {
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        /* Ensure animations run */
+        .balloon, .falling-heart, .sparkle {
+            animation-iteration-count: infinite; /* Make sure they keep looping */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section-box">
+            <div class="header">Happy Birthday, My Love!</div>
+            <div class="sub-header">
+        To the most beautiful soul who brightens my life</div>
+    </div>
+
+    <!-- Personal Message Box -->
+    <div class="section-box">
+      <div class="section-title">A Message from Me</div>
+      <p class="personal-message">
+        My love, on this special day, I want you to know how deeply you are loved by . You are my greatest blessing, my forever dream, and the reason behind my happiest smiles.You are trully the reason for my happiness... I really Love Uu And Want Youu In Myy Life Forever... 
+        <br><br>
+        Here, On This Specail Day Lets Take Some Vows Some Promises < A PLEDGE> <br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp• Ever We Fight, We Will Sort Out Everything.. <br><br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp• We wont Make Any Opposite gender As Our Bestfriend Or Close Friend.. <br><br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp• We Will Strive Hard For Our Future.. <br><br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp• We Will Surelyy Keep Loving Each Other And If Ever We Feel Some Changes, Speak and will confront situation rather Than keeping it in our hearts.. <br><br>
+
+          __After All We Love Other Unconditionally___
+
+      </p>
+    </div>
+
+    <!-- Memories Box -->
+    <div class="section-box">
+      <div class="section-title">Memories with You</div>
+      <p class="personal-message">
+        ~~ Though We Dont Have Any Physical Moments As Memories ( which we would surely make in Furture... hai na?)... i have Got Some Online Ones ..</p>
+            <div class="photo-collage">
+                <img src="photo1.jpg" alt="Memory 1">
+                <img src="photo2.jpg" alt="Memory 2">
+                <img src="photo3.jpg" alt="Memory 3">
+            </div>
+        </div>
+
+    <!-- Quotes Box -->
+    <div class="section-box">
+      <div class="section-title">Line That I Want Too Sing For Uu ... Which Is Meant Exactly For Uu</div>
+      <div class="quote"> "O Sajnii Ree!! Kaise Katte Dinn Raat Kaise Ho Tujhse Baaat Teri Yaad Teri Yaad Saataave Reee!!"<br><br>
+"Joo Tu Mera Hamdard Hai.."<br><br>
+"Tuu Hai Toh Mujhe Fir Aur Kyaa Chahiye.. Kissi Ki Naa Madaad Naa Duaa Chahiye Tuu Hai Toh Mujhe Fir Aur Kyaa Chahiye"<br><br>
+"Nazrroo Se Mere Yahaa Dekhoo Naa Kudhh ko Zaaraa... Dekho Na Dekhoo Naa Julfoo Se Kaise Julfoo Se Teri Chupti Pyaari Pyaari Si Muskaan Hai.." 
+      </div>
+    </div>
+
+
+            <!-- Future Wishes Box -->
+    <div class="section-box">
+      <div class="section-title">Our Beautiful Future</div>
+      <p class="future-wishes">
+        I can’t wait to travel the world with you, celebrate every milestone, spend whole day and everyday with you, have our own family and grow old together. I Just Want Youu Too Be By My Side Physically Everytime....
+      </p>
+    </div>
+
+    <!-- Ending Note Box -->
+    <div class="section-box">
+      <div class="ending-note">So That Was My Birthday Gift To You , Hope You Liked it my forever and ever and never ending love! I love You !! I Love Uu !! I Lovveeeeeee Uuuuu Meri Jaan </div>
+    </div>
+
+    <!-- Signature Box -->
+    <div class="section-box">
+      <div class="signature">Your Lover, Your Hubby , Your Forever Love, Your Baacha, Your Life .... Yess Ur Sudhanshuuu........</div>
+    </div>
+  </div>
+
+    <!-- Realistic Balloons (Emoji style) -->
+    <div class="balloon" style="left: 15%; animation-delay: 2s;"></div>
+    <div class="balloon" style="left: 40%; animation-delay: 4s;"></div>
+    <div class="balloon" style="left: 60%; animation-delay: 1s;"></div>
+    <div class="balloon" style="left: 80%; animation-delay: 6s;"></div>
+
+    <!-- Falling Hearts -->
+    <div class="falling-heart" style="left: 10%; animation-delay: 0s;"></div>
+    <div class="falling-heart" style="left: 30%; animation-delay: 2s;"></div>
+    <div class="falling-heart" style="left: 50%; animation-delay: 3s;"></div>
+    <div class="falling-heart" style="left: 70%; animation-delay: 4s;"></div>
+
+    <!-- Sparkles -->
+    <div class="sparkle" style="left: 15%; top: 30%; animation-delay: 1s;"></div>
+    <div class="sparkle" style="left: 40%; top: 50%; animation-delay: 2s;"></div>
+    <div class="sparkle" style="left: 70%; top: 20%; animation-delay: 3s;"></div>
+    <div class="sparkle" style="left: 25%; top: 70%; animation-delay: 4s;"></div>
+</body>
+</html>
